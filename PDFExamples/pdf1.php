@@ -1,5 +1,5 @@
 <?PHP
-include("../../php/pear/fpdf/fpdf.php");
+include("fpdf/fpdf.php");
 
 $pdf = new FPDF();
 $pdf->AddPage();
